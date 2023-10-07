@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.017" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\xue_xi\dai-ma\massey\159software\159lab\week5\tutorial4\target\test-classes;D:\xue_xi\dai-ma\massey\159software\159lab\week5\tutorial4\target\classes;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\xue_xi\maven\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\xue_xi\maven\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\xue_xi\maven\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\xue_xi\maven\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\xue_xi\bian-cheng-ranjian\idea\jdk19\bin"/>
+    <property name="sun.java.command" value="C:\Users\hs238\AppData\Local\Temp\surefire6805979199609987708\surefirebooter9232133941700358218.jar C:\Users\hs238\AppData\Local\Temp\surefire6805979199609987708 2023-10-07T13-49-43_099-jvmRun1 surefire15250155607346710599tmp surefire_09380135765223374070tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\xue_xi\dai-ma\massey\159software\159lab\week5\tutorial4\target\test-classes;D:\xue_xi\dai-ma\massey\159software\159lab\week5\tutorial4\target\classes;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\xue_xi\maven\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\xue_xi\maven\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\xue_xi\maven\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\xue_xi\maven\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\xue_xi\maven\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hs238"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="D:\xue_xi\bian-cheng-ranjian\idea\jdk19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\xue_xi\dai-ma\massey\159software\159lab\week5\tutorial4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\hs238\AppData\Local\Temp\surefire6805979199609987708\surefirebooter9232133941700358218.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="hs238"/>
+    <property name="stdout.encoding" value="GBK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\xue_xi\maven\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hs238\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="D:\xue_xi\dai-ma\massey\159software\159lab\week5\tutorial4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\xue_xi\bian-cheng-ranjian\idea\jdk19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\hs238\bin;D:\xue_xi\bian-cheng-ranjian\Git\mingw64\bin;D:\xue_xi\bian-cheng-ranjian\Git\usr\local\bin;D:\xue_xi\bian-cheng-ranjian\Git\usr\bin;D:\xue_xi\bian-cheng-ranjian\Git\usr\bin;D:\xue_xi\bian-cheng-ranjian\Git\mingw64\bin;D:\xue_xi\bian-cheng-ranjian\Git\usr\bin;C:\Users\hs238\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\xue_xi\bian-cheng-ranjian\idea\jdk19\bin;D:\xue_xi\bian-cheng-ranjian\Git\cmd;D:\xue_xi\bian-cheng-ranjian\apache-maven-3.9.4\bin;C:\Users\hs238\AppData\Local\Microsoft\WindowsApps;E:\bian-cheng-ranjian\clion\CLion 2022.3.2\bin;D:\xue_xi\bian-cheng-ranjian\idea\IntelliJ IDEA 2022.3.2\bin;D:\xue_xi\bian-cheng-ranjian\Microsoft VS Code\bin;D:\xue_xi\bian-cheng-ranjian\Git\usr\bin\vendor_perl;D:\xue_xi\bian-cheng-ranjian\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.008"/>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.007">
+    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
+	at org.example.CalcTest.testSubtraction(CalcTest.java:15)
+]]></failure>
+  </testcase>
+</testsuite>
